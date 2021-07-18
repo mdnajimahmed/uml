@@ -1,2 +1,13 @@
-# uml
-Exploring the theoretical approach to SWE/SWD
+# uml(Exploring the theoretical approach to SWE/SWD)
+When I joined as a Senior Java Developer at PETRONAS, I realized that my role is not just coding or implementing solutions. I need to convey ideas to the team, and the team here does not just mean junior developers who report to me. 
+- I need to instruct my development team on how to break down a problem into APIs and what will be classes required to implement the APIs. How the interaction will happen between API and UI. 
+- I need to work with the data team to design the persistence layer.
+- I need to communicate with the deployment team regarding the infrastructure.
+- I need to communicate with the BA to understand the user story to understand the business value of a feature, priorities and scope.
+- I need to participate in the UAT/Demo session with the users and stakeholders explaining how to make the best use of the system.
+- I need to participate in meetings with stakeholders and provide technical advice to keep the development efforts outcome at its best.
+- I need to think of reducing technical debt when key members leave the project(since the project has heavy engagement from the vendor). 
+
+After doing all these activities in most likely a brute force manner for almost 2 years, I have come to realize that I can do better if I take a more structured and theoretical approach to my problem instead of trying brute force, relying on intuition and re-inventing the wheel! This repository is one such attempt to improve my software design skill as part of a team. I want to improve my technical communication skill by visualizing my thought process using widely accepted pictures and diagrams to my team and take input them in the same way. I believe this will also help to preserve the knowledge for future team members no matter if he is part of a technical team(can see the class diagrams) or part of a business team(can see the use case diagram).
+
+Although the repository name is UML, I want to tackle different UML diagrams in the context of the software development lifecycle process. From planning until maintenance, which diagram is important in which part of the project, in which scenario, how to use the best in the context, what values they create, what are their limitations etc will be covered thoroughly. In the process of creating something out of nothing, I am curious to know/explore how UML diagrams help to create better software as a team.
