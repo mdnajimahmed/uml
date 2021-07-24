@@ -1,0 +1,2 @@
+- secret of effective meeting
+- different types of meetings and how to conduct them as leader/participant

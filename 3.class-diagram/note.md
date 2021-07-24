@@ -1,0 +1,31 @@
+- Most frequently used UML diagram
+- Three parts
+    - part 01: Name - CamelCase / Noun
+        - Example: EntityManager
+    - Part 02: Attributes/Properties
+        - Example : startedAt: Date
+    - Part 03: Behavitors/ Methods/functions
+        - getEntries(fromDate:Date,toDate:Date) List
+
+- Visibility
+    - `+` - means public
+    - `-` - means private
+    - `#` - means protected
+    - `~` - package public
+
+- Class relationship
+    - Association(Aggregation vs composition) And Multiplicity(1to1,1tomany etc) (has-a relationship)
+        - Object 1 refers to object 2 or takes a reference of object 2(observer pattern)
+        - Simple association says, pass a copy of object 2 to object 1. Usually object 1 will just read object 2.(readonly)
+        - Aggregation says, pass reference of object 2 to object 1, object 1 can change property of object 1.(read/write)
+        - Composition says, object 1 will create and destroy object 2. if object 1 is destroyed then object 2 is also destroyed. composition implies ownership.(part-of relationship)
+    - Generalization (is-a relationship)
+        - Inheritence
+    - Realization(implements behavior)
+        - Interface implementation, polymorphism
+    - Dependency (references) (uses relationship)
+        - represents tight coupling 
+        - A depends on B means if B changes then A will also need to change
+        - RegistrationManagers -> scheduling algorithm
+        - Often confused with association but there is a big difference. Association means the second class appears as a attribute type in the frist class whereas dependency means - second class comes as a method parameter( sometimes regualar method paramteres - that's why we use strategy pattern or sometimes constructor thats why we need ioc container!) 
+        
