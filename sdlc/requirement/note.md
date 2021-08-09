@@ -1,0 +1,34 @@
+
+- what value is provided by the system/feature? 
+- no value = no system
+
+Requirement gathering
+- step 1: understand the scope of the project from project manager/ project stakeholder , offer alternatives
+- Tactics
+    - Interview
+    - Brainstorming
+    - Observing a job or a process
+    - Requirement gathering
+    - Workshop(why build it, goals and scope, high level objective)
+    - mising reqruiement is catastrophic impact on project management.
+    - it is a process of discovery, analyze , summerize and document.
+- Steps:
+    - identify stakeholders (identify the different types of users / roles of the system) , sponsors and project managers will guide here
+    - identify business requirement from each type of stakeholders.
+    - categorize the requirements based of different types of values such as - improtance, architecture
+        - Example base of importance
+            - Must feature (system will die without it, example the implementation of business flow)
+            - Should feature (system will not die but if missing the process will be slowed down , example reporting)
+            - Nice to have(user comfort and ease of access!)
+        - Example based on architecture
+            - Functional (the visible software)
+            - Non functional(99% uptime)
+            - Teachnical(low level design)
+            - Transition(temporary, data migration)
+    - requirement refinement and verification
+        - Tag each and every requirement by must/should/nice to have
+        - Moscow priotiziation ? what happens if the feature is not there?
+    - Validation your understaning, identifying missing links
+        - Mind map
+        - Flowchart an swimlane(all about value?) - confirm the general understanding . swimlane is flowchart of flowchart!!!
+        - Fishbone diagram

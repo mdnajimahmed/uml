@@ -1,7 +1,27 @@
+## An application has three main layers 
+- Interface
+- Logic
+- Data storage
+## Project delivery methodology 
+- A project is a change to the orgnization operation that should have a positive impact by removing risks or constraints on the organizations 
+operations.
+- Three hard constrains of a project 
+    - Scope
+    - Schedule
+    - Cost
+- Change in any of the hard constraints will cause change in the other two.
+
+# Life Lesson
+- Try not to be creative with the requirement after the requirement is signed off by the stakeholders, try to be creative implementing them. That's why BA should have amazing techical skill so that he both udnerstands the functional and non functional requirements very well. May be it won't be the worst idea to deploy architects and senior engineers in the requirement engineering process.
+
 ## Waterfall approach
-- Collect and analyze requirements(most important phase)
-- Document scope an requirements
-- Document the architecture 
+- Planing
+    - Collect and analyze requirements(most important phase)
+- Analysis
+    - Document scope an requirements
+    - Wireframes and mockups
+- Design
+    - Document the architecture
 - Implenetation
 - Verification/Testing (Can be used as tag in bugs in azure devops!)
     - Functional
@@ -9,6 +29,8 @@
     - Security
     - Usabiity 
 - Run & Maintain
+
+Current step needs to finish first before we can begin the next step, hence the term waterfall, we can not start implementation until we finish design. 
 
 #### Current step depends on the completion of the previous step. Hence the term waterfall.
 
@@ -41,6 +63,28 @@ Agile relies on 4 values -
     - marketing
     - packeging
     - distribution
+
+# Agile phases
+- 1. Envisioning - Requirement engineering, team building, wireframing etc (Planning and analysis phase of waterfall but with less documentation)
+- 2. Speculate*SPRINT - Feature based delivery plan, what feature to do in the sprint. Prepare board, user stories etc.
+- 3. Explore*SPRINT - actual planned work, review developed feature, build new feature
+- 4. Adapt*SPRINT- bug fix, retro, collect feedback
+- 5. Close - All the features are delivered, lesson learned from the entire project.
+steps 2-4 is repeating in a sprint.
+
+# Devops
+- Engineers participating together in the entire service lifecycle, development + operation + qa
+- Devops is also a way of thinking (CAMS - culture,automation,measurement,sharing)
+- System thinking,continuous learning an experimentation
+
+# Devops methodologies 
+- People over process over tool (define who will do the the job first, define the process around them, define the tool they will use).Adapt organization change and team building activity in this specific methodology.
+- Lean management (work in small batches, amplify feedback loops, do a lot of visualization) -- this is a process optimization
+- Change control - 
+- CD (reduce the cycle time - time between development and deployment, reduce the lead time - getting the request from the user to the deployment)
+allows more experimentation and fine tune the system. - automatic acceptance testing is a must
+- IAC
+
 
 # *Mapping requirements to technical description*
 - Use case
