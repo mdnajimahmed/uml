@@ -1,2 +1,12 @@
-# uml(Exploring the theoretical approach to SWE/SWD)
-When I joined as a Senior Java Developer at PETRONAS, I realized that my role is not just coding or implementing solutions. I need to convey ideas to the team, from my fellow engineers to business users, architect, cyber security experts, devops engineers, data engineers etc. I am fully convinced by my study that using UMLs in system design and communuication is a very well structured approach to model complex systems into softwares, it teaches me a very elegant way of thinking while brainstorming on a problem and it also enormously helps to reduce techical debt by preserving the knowledge in a well documented way that is unerstandable by any team member. In this repo, I want to take a dump of my unerstanding of what I have learned, sort of a reference/cheat sheet for me. I hope this attempt will improve my understanding of the SDLC process and help me evaluate the tradeoffs we make day to day to cope up with expectations and deivery.
+# UML diagram
+
+This repo tracks my attempt to learn different types of UML diagrams, study object oriented analysis and design and some SDLC process.
+
+- Pinning this here to discover more in future. 
+- *Todo : Object oriented analysis and deisgn with hands on.*
+
+# Reason for pause : 
+- Lost interest
+- Too much related to project management, seems like for more senior level(e.g architect)
+- Too much documentation, I miss programming!
+- Curious about something else. 
